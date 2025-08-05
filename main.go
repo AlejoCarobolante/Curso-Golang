@@ -82,4 +82,6 @@ func main() {
 	fmt.Println("Funcion factorial: ", fact(7))
 	fmt.Println("Serie de Fibonacci: ", fib(7))
 
+	//Rango en estructuras
+
 }
