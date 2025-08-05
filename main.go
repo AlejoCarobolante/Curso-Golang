@@ -40,4 +40,8 @@ func main() {
 	fmt.Println("Slices")
 	porciones()
 
+	//Mapas
+	fmt.Println("Mapas")
+	mapas()
+
 }
