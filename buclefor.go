@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func buclefor() {
+func buclefor() { //El for es la unica manera de hacer bucles en Go
 
 	i := 1
 	for i <= 3 {

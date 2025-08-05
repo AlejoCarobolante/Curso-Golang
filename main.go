@@ -26,5 +26,5 @@ func main() {
 
 	//If & Else
 	fmt.Println("If y Else")
-
+	ifelse()
 }
