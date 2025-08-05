@@ -33,4 +33,11 @@ func main() {
 	switchcase()
 
 	//Arreglos
+	fmt.Println("Arreglos")
+	arreglos()
+
+	//Slices
+	fmt.Println("Slices")
+	porciones()
+
 }
