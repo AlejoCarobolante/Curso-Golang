@@ -27,4 +27,10 @@ func main() {
 	//If & Else
 	fmt.Println("If y Else")
 	ifelse()
+
+	//Switch case
+	fmt.Println("Switch case y default")
+	switchcase()
+
+	//Arreglos
 }
