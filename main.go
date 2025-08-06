@@ -86,4 +86,14 @@ func main() {
 	fmt.Println("Barrido con range")
 	rango()
 
+	//Punteros
+	fmt.Println("Punteros")
+	i := 1
+	fmt.Println("Valor inicial: ", i)
+	valor(i)
+	fmt.Println("Reemplazo de valor: ", i)
+	puntero(&i)
+	fmt.Println("Reemplazo por puntero: ", i) //la sintaxis &i nos da la direccion de memoria de i
+	fmt.Println("Puntero: ", &i)              //los punteros tambien pueden imprimirse
+
 }

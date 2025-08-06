@@ -20,7 +20,7 @@ func rango() { //"range" itera sobre una variedad de elementos y estructuras de 
 
 	mapa1 := map[string]string{"a": "azul", "b": "blanco", "c": "celeste"}
 	for k, v := range mapa1 {
-		fmt.Println("%s -> %s \n", k, v)
+		fmt.Printf("%s -> %s \n", k, v)
 	}
 	for k := range mapa1 {
 		fmt.Println("Clave: ", k) //range tambien puede iterar sobre las claves de un mapa
