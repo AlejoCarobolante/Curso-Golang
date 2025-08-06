@@ -83,5 +83,7 @@ func main() {
 	fmt.Println("Serie de Fibonacci: ", fib(7))
 
 	//Rango en estructuras
+	fmt.Println("Barrido con range")
+	rango()
 
 }
