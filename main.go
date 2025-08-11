@@ -96,4 +96,8 @@ func main() {
 	fmt.Println("Reemplazo por puntero: ", i) //la sintaxis &i nos da la direccion de memoria de i
 	fmt.Println("Puntero: ", &i)              //los punteros tambien pueden imprimirse
 
+	//Strings y "runes"
+	fmt.Println("Contador de runas")
+	cadenasrunas()
+
 }
