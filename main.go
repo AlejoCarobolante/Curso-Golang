@@ -101,6 +101,7 @@ func main() {
 	cadenasrunas()
 
 	//Structs
+
 	//Sintaxis para crear
 	fmt.Println(persona{"Juan", 25})
 
@@ -123,5 +124,14 @@ func main() {
 	fmt.Println(sp.age) //Se puede usar el . combinado con punteros a la estructura
 	sp.age = 51
 	fmt.Println(sp.age) //Las estructuras son mutables
+
+	//Metodos
+	r := rect{width: 10, height: 5}
+	fmt.Println("area: ", r.area())
+	fmt.Println("perimetro: ", r.perim()) // se llaman dos metodos para el struct
+
+	rp := &r
+	fmt.Println("area", rp.area())
+	fmt.Println("perimetro", rp.perim()) //Go se encarga automaticamente de la conversion entre valor y puntero para la llamada de metodos
 
 }
