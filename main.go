@@ -100,4 +100,28 @@ func main() {
 	fmt.Println("Contador de runas")
 	cadenasrunas()
 
+	//Structs
+	//Sintaxis para crear
+	fmt.Println(persona{"Juan", 25})
+
+	//Nombrando los campos al inicializar
+	fmt.Print(persona{name: "Alejo", age: 51})
+
+	//Valores omitidos van a ser zero-valued
+	fmt.Println(persona{name: "Caricato"})
+
+	//Cualquier prefijo & nos retorna un puntero al struct
+	fmt.Println(&persona{name: "Gabriel", age: 15})
+
+	//En el metodo newPerson definimos que unicamente a partir del nombre podemos crear una persona, y posteriormente dentro de esta definimos la edad, por lo que todas las personas creadas a partir de esta funcion tendran esa misma edad
+	fmt.Println(newPerson("Juan Pablo"))
+
+	s := persona{name: "Cristian Orlando", age: 50}
+	fmt.Println(s.name) //se puede acceder a un campo de un struct con el operador punto
+
+	sp := &s
+	fmt.Println(sp.age) //Se puede usar el . combinado con punteros a la estructura
+	sp.age = 51
+	fmt.Println(sp.age) //Las estructuras son mutables
+
 }
